@@ -3,43 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sreenath</title>
+
+    <meta
+        name="description"
+        content="Sreenath's personal website — technology, books, travel, cinema, politics and ideas."
+    >
+
+    <title>Sreenath — Technology, Books, Travel & Ideas</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Sreenath</h1>
-        <p>Technology • Books • Travel • Cinema • Politics</p>
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <a class="site-name" href="index.html">
+                Sreenath
+            </a>
+
+            <nav aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#explore">Explore</a>
+                <a href="#connect">Connect</a>
+            </nav>
+
+        </div>
     </header>
 
+
     <main>
-        <section>
-            <h2>About</h2>
-            <p>
-                I am building a career at the intersection of technology,
-                automation, learning and knowledge.
-            </p>
+
+        <!-- Hero -->
+
+        <section class="hero">
+            <div class="container">
+
+                <p class="eyebrow">
+                    Personal website
+                </p>
+
+                <h1>
+                    Technology, books,<br>
+                    travel, cinema & ideas.
+                </h1>
+
+                <p class="hero-description">
+                    I am Sreenath. I work at the intersection of technology,
+                    automation, learning and knowledge.
+                </p>
+
+            </div>
         </section>
 
-        <nav>
-            <h2>Explore</h2>
 
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Books</a></li>
-                <li><a href="#">Travel</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">Academic</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Connect</a></li>
-            </ul>
-        </nav>
+        <!-- About -->
+
+        <section id="about" class="section">
+            <div class="container narrow">
+
+                <p class="section-label">
+                    About
+                </p>
+
+                <h2>
+                    Building, learning and documenting along the way.
+                </h2>
+
+                <p>
+                    My professional focus is moving toward software engineering,
+                    test automation and technology. Alongside that, I am interested
+                    in books, travel, cinema, politics and the study of ideas.
+                </p>
+
+                <p>
+                    This website will gradually become a place where I document
+                    what I build, read, learn and experience.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- Explore -->
+
+        <section id="explore" class="section section-alt">
+            <div class="container">
+
+                <p class="section-label">
+                    Explore
+                </p>
+
+                <div class="cards">
+
+                    <a class="card" href="#">
+                        <span class="card-number">01</span>
+                        <h3>About</h3>
+                        <p>
+                            Background, experience, education and current direction.
+                        </p>
+                    </a>
+
+                    <a class="card" href="#">
+                        <span class="card-number">02</span>
+                        <h3>Books</h3>
+                        <p>
+                            A growing archive of books I've read and reviewed.
+                        </p>
+                    </a>
+
+                    <a class="card" href="#">
+                        <span class="card-number">03</span>
+                        <h3>Travel</h3>
+                        <p>
+                            Places, experiences, itineraries and observations.
+                        </p>
+                    </a>
+
+                    <a class="card" href="#">
+                        <span class="card-number">04</span>
+                        <h3>Movies</h3>
+                        <p>
+                            Reviews and observations from cinema.
+                        </p>
+                    </a>
+
+                    <a class="card" href="#">
+                        <span class="card-number">05</span>
+                        <h3>Academic</h3>
+                        <p>
+                            Notes on PSIR, politics, international relations and ideas.
+                        </p>
+                    </a>
+
+                    <a class="card" href="#">
+                        <span class="card-number">06</span>
+                        <h3>Projects</h3>
+                        <p>
+                            Software, automation and other things I build.
+                        </p>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Connect -->
+
+        <section id="connect" class="section">
+            <div class="container narrow">
+
+                <p class="section-label">
+                    Connect
+                </p>
+
+                <h2>
+                    Find me elsewhere.
+                </h2>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                        YouTube
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
     </main>
 
-    <footer>
-        <p>&copy; 2026 Sreenath</p>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+
+            <p>
+                © 2026 Sreenath
+            </p>
+
+            <p>
+                Built incrementally.
+            </p>
+
+        </div>
     </footer>
 
 </body>
