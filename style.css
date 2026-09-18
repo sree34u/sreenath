@@ -1,0 +1,19 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+nav ul {
+    padding-left: 1.5rem;
+}
+
+footer {
+    margin-top: 4rem;
+}
